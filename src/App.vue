@@ -351,6 +351,10 @@ import NetlifyForm from "./components/NetlifyForm.vue";
       <a
         href="https://vimeo.com/ondemand/epilogues"
         target="_blank"
+         onclick="gtag('event', 'vimeo_click', {
+                        event_category: 'engagement',
+                        event_label: 'Watch on Vimeo'
+                                               });"
         rel="noopener"
         class="inline-flex items-center justify-center gap-4 mt-12 px-14 py-4 border-2 border-white text-white text-xl tracking-widest hover:bg-white hover:text-black transition-all duration-300"
       >
