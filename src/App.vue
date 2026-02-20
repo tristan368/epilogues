@@ -334,7 +334,7 @@ import NetlifyForm from "./components/NetlifyForm.vue";
     <!-- Image Column -->
     <div class="w-full md:w-1/2 flex">
       <img
-        src="public/Untitled_1.1.13.png"
+        src="src/assets/Untitled_1.1.13.png"
         alt="Epilogues still"
         class="w-full h-auto"
       />
