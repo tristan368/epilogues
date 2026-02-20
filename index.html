@@ -4,31 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Epilogues - A film by Ari Alexander Ergis Magnússon</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QGK875YBW7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QGK875YBW7');
+    </script>
+
   </head>
   <body>
     <div id="app"></div>
+
     <form name="feedback" netlify netlify-honeypot="bot-field" hidden>
-      <input
-        name="name"
-        id="name"
-        type="text"
-        placeholder="Your Name"
-      />
-  
-      <input
-        id="email"
-        name="email"
-        type="email"
-        placeholder="Your Email Address"
-      />
-  
-      <textarea
-        id="message"
-        name="message"
-        placeholder="Your Message"
-      ></textarea>
-</form>
+      <input name="name" id="name" type="text" placeholder="Your Name" />
+      <input id="email" name="email" type="email" placeholder="Your Email Address" />
+      <textarea id="message" name="message" placeholder="Your Message"></textarea>
+    </form>
+
     <script type="module" src="/src/main.js"></script>
-    
   </body>
 </html>
