@@ -11,9 +11,10 @@ import NetlifyForm from "./components/NetlifyForm.vue";
         <p class="text-xl">Directed by <b>Ari Alexander Ergis Magnússon</b></p>
         <div class="nav flex flex-col md:flex-row text-left mt-6">
           <a class="button" href="#about" v-smooth-scroll>About the Film</a>
-          <a class="button" href="#trailer" v-smooth-scroll
-            >Watch the Trailer</a
-          >
+          <a class="button" href="#FilmWatch" v-smooth-scroll>Watch the Film</a>
+          <a class="button" href="#trailer" v-smooth-scroll>Watch the Trailer</a>
+
+
           <a class="button" href="#contact" v-smooth-scroll>Contact Us</a>
         </div>
         <div class="relative flex flex-wrap justify-between top-10 left-30">
@@ -99,7 +100,7 @@ import NetlifyForm from "./components/NetlifyForm.vue";
                   d="M64.377 4.649c-.748 0-1.133-.076-1.133-.461 0-.389.385-.466 1.133-.466.752 0 1.133.077 1.133.466 0 .385-.381.461-1.133.461zm1.725-.966v-.846H61.53v.884h1.447v.013c-.275.186-.41.41-.41.742 0 .724.531 1.057 1.811 1.057 1.281 0 1.814-.333 1.814-1.057 0-.346-.135-.589-.455-.781v-.012h.365z"
                 />
                 <path
-                  d="M64.975 2.549h.119c.66 0 1.098-.275 1.098-1.268C66.191.538 65.834 0 65.109 0c-.52 0-.803.205-.986.763l-.18.531c-.098.295-.236.383-.404.383-.244 0-.371-.191-.371-.416 0-.288.172-.39.52-.39V.077h-.143c-.619 0-.979.376-.979 1.178 0 .909.467 1.267 1.037 1.267.486 0 .787-.249.961-.736l.223-.62c.064-.173.168-.321.391-.321.277 0 .41.181.41.449 0 .301-.197.461-.498.461h-.115v.794zM.027 10.41h2.825V.327H.027V10.41zm7.78-6.353h2.74V3.32c0-1.567-.354-3.19-3.363-3.19-3.627 0-3.627 2.118-3.627 5.238 0 3.22 0 5.24 3.627 5.24 2.475 0 3.42-1.356 3.42-3.714v-.636H7.865v.776c0 1.258-.186 1.71-.639 1.71-.691 0-.76-.424-.76-3.376 0-2.866.027-3.375.76-3.375.58 0 .58.805.58 1.243v.821h.001zm3.584 6.353h6.199V8.123h-3.375V6.372h3.035V4.167h-3.035V2.614h3.25V.327h-6.074V10.41zm7.062 0h5.901V8.123h-3.077V.327h-2.824V10.41z"
+                  d="M64.975 2.549h.119c.66 0 1.098-.275 1.098-1.268C66.191.538 65.834 0 65.109 0c-.52 0-.803.205-.986.763l-.18.531c-.098.295-.236.383-.404.383-.244 0-.371-.191-.371-.416 0-.288.172-.39.52-.39V.077h-.143c-.619 0-.979.376-.979 1.178 0 .909.467 1.267 1.037 1.267.486 0 .787-.249.961-.736l.223-.62c.064-.173.168-.321.391-.321.277 0 .410.181.410.449 0 .301-.197.461-.498.461h-.115v.794zM.027 10.41h2.825V.327H.027V10.41zm7.78-6.353h2.74V3.32c0-1.567-.354-3.19-3.363-3.19-3.627 0-3.627 2.118-3.627 5.238 0 3.22 0 5.24 3.627 5.24 2.475 0 3.42-1.356 3.42-3.714v-.636H7.865v.776c0 1.258-.186 1.71-.639 1.71-.691 0-.76-.424-.76-3.376 0-2.866.027-3.375.76-3.375.58 0 .58.805.58 1.243v.821h.001zm3.584 6.353h6.199V8.123h-3.375V6.372h3.035V4.167h-3.035V2.614h3.25V.327h-6.074V10.41zm7.062 0h5.901V8.123h-3.077V.327h-2.824V10.41z"
                 />
                 <path
                   fill-rule="evenodd"
@@ -172,7 +173,32 @@ import NetlifyForm from "./components/NetlifyForm.vue";
         <p><b>Country of production</b> Iceland, Norway</p>
         <p><b>Runtime</b> 90 min</p>
         <p><b>Expected release</b> 2023</p>
+        <h3 class="mb-3 mt-10" data-v-10ac5d92="">Press</h3>
+        <p data-v-10ac5d92="">
+          <a
+            class="pb-2 hover:underline"
+            target="_blank"
+            style="color:white;"
+            href="https://cineuropa.org/en/newsdetail/475582/"
+            data-v-10ac5d92=""
+            ><b data-v-10ac5d92="">Cineuropa.com - VILNIUS 2025 </b><br data-v-10ac5d92="" />Film Review - Epilogues</a
+          >
+        </p>
+        <p style="border:none;" data-v-10ac5d92="">
+          <a
+            class="pb-2 hover:underline"
+            target="_blank"
+            style="color:white;"
+            href="https://cineuropa.org/en/interview/475638/"
+            data-v-10ac5d92=""
+            ><b data-v-10ac5d92="">Cineuropa.com - VILNIUS 2025</b> <br data-v-10ac5d92="" /> Interview with Ari Alexander Ergis Magnússon</a
+          >
+        </p>
+        <a href="https://www.imdb.com/title/tt21875148/?ref_=nm_flmg_job_2_cdt_t_1" target="_blank" data-v-10ac5d92="">
+          <img class="w-full mt-6 h-auto" src="/poster.jpg" data-v-10ac5d92="" />
+        </a>
       </div>
+
       <div class="mt-8 md:mt-0 md:w-2/3 md:ml-14">
         <h3 class="mb-3">Synopsis</h3>
         <p>
@@ -211,9 +237,11 @@ import NetlifyForm from "./components/NetlifyForm.vue";
           co-director of exhibitions and director of international projects at
           the Serpentine Gallery in London.
         </p>
+        
       </div>
     </div>
   </div>
+
   <div id="trailer">
     <div class="content-wrapper bg-white/10 w-full py-10 px-10">
       <div>
@@ -272,6 +300,70 @@ import NetlifyForm from "./components/NetlifyForm.vue";
       </div> -->
     </div>
   </div>
+ <!-- <div>   
+  <div id="FilmWatch" class="mt-24 pb-24 text-center">
+
+  <h3 class="mb-6 text-2xl tracking-wide">
+    Watch the Film
+  </h3>
+
+  <p class="max-w-md mx-auto mt-4 text-lg opacity-80 leading-relaxed">
+  The full film is available to rent or purchase via Vimeo On Demand.
+</p>
+
+
+  <a
+    href="https://vimeo.com/ondemand/epilogues"
+    target="_blank"
+    rel="noopener"
+    class="inline-flex items-center justify-center gap-4 mt-12 px-14 py-4 border-2 border-white text-white text-xl tracking-widest hover:bg-white hover:text-black transition-all duration-300"
+  >
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M23.977 6.416c-.105 2.338-1.737 5.54-4.894 9.612-3.266 4.26-6.03 6.39-8.293 6.39-1.404 0-2.59-1.296-3.558-3.888-.645-2.376-1.29-4.752-1.935-7.128-.716-2.592-1.483-3.888-2.303-3.888-.178 0-.8.375-1.868 1.125L0 7.178c1.155-1.017 2.287-2.034 3.396-3.051C4.9 2.808 6.02 2.066 6.756 2.001c1.936-.186 3.127 1.138 3.574 3.972.483 3.061.82 4.966 1.01 5.716.56 2.543 1.177 3.814 1.853 3.814.52 0 1.3-.82 2.34-2.461 1.04-1.64 1.594-2.888 1.664-3.742.147-1.414-.41-2.12-1.664-2.12-.592 0-1.202.136-1.831.408 1.216-3.985 3.534-5.92 6.956-5.807 2.537.076 3.734 1.721 3.589 4.935z"/>
+    </svg>
+
+    <span>WATCH ON VIMEO</span>
+  </a>
+
+</div>
+ </div> -->
+
+ <div id="FilmWatch" class="content-wrapper w-full py-24 px-10">
+  <div class="flex flex-col md:flex-row items-stretch gap-12">
+    
+    <!-- Image Column -->
+    <div class="w-full md:w-1/2 flex">
+      <img
+        src="/Untitled_1.1.13.png"
+        alt="Epilogues still"
+        class="w-full h-auto"
+      />
+    </div>
+
+    <!-- Text Column -->
+    <div class="w-full md:w-1/2 flex flex-col justify-center text-center md:text-left">
+      <h3 class="mb-6 text-2xl tracking-wide">Watch the Film</h3>
+
+      <p class="mt-4 text-lg opacity-80 leading-relaxed">
+        The full film is available to rent or purchase via Vimeo On Demand.
+      </p>
+
+      <a
+        href="https://vimeo.com/ondemand/epilogues"
+        target="_blank"
+        rel="noopener"
+        class="inline-flex items-center justify-center gap-4 mt-12 px-14 py-4 border-2 border-white text-white text-xl tracking-widest hover:bg-white hover:text-black transition-all duration-300"
+      >
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M23.977 6.416c-.105 2.338-1.737 5.54-4.894 9.612-3.266 4.26-6.03 6.39-8.293 6.39-1.404 0-2.59-1.296-3.558-3.888-.645-2.376-1.29-4.752-1.935-7.128-.716-2.592-1.483-3.888-2.303-3.888-.178 0-.8.375-1.868 1.125L0 7.178c1.155-1.017 2.287-2.034 3.396-3.051C4.9 2.808 6.02 2.066 6.756 2.001c1.936-.186 3.127 1.138 3.574 3.972.483 3.061.82 4.966 1.01 5.716.56 2.543 1.177 3.814 1.853 3.814.52 0 1.3-.82 2.34-2.461 1.04-1.64 1.594-2.888 1.664-3.742.147-1.414-.41-2.12-1.664-2.12-.592 0-1.202.136-1.831.408 1.216-3.985 3.534-5.92 6.956-5.807 2.537.076 3.734 1.721 3.589 4.935z"/>
+        </svg>
+        <span>WATCH ON VIMEO</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+
   <div id="contact" class="content-wrapper flex w-full py-16 bg-black/90 px-10">
     <div class="sidebar">
       <h3 class="mb-3">Icelandic Film Corporation</h3>
@@ -280,9 +372,7 @@ import NetlifyForm from "./components/NetlifyForm.vue";
       </p>
       <p class="flex justify-between">
         <b class="mr-2">Email</b>
-        <a class="text-white underline" href="mailto:f.thor@icecorp.is"
-          >f.thor@icecorp.is</a
-        >
+        <a class="text-white underline" href="mailto:f.thor@icecorp.is">f.thor@icecorp.is</a>
       </p>
 
       <p class="flex justify-between">
@@ -298,9 +388,7 @@ import NetlifyForm from "./components/NetlifyForm.vue";
       </p>
       <p class="flex justify-between">
         <b class="mr-2">Email</b>
-        <a class="text-white underline" href="mailto:office@haraldhouse.com"
-          >office@haraldhouse.com</a
-        >
+        <a class="text-white underline" href="mailto:office@haraldhouse.com">office@haraldhouse.com</a>
       </p>
       <p class="flex justify-between">
         <b class="mr-2">Phone</b> +32 485127750
@@ -368,7 +456,6 @@ h3 {
 }
 p {
   font-family: "Helvetica";
-
   color: white;
 }
 .sidebar {

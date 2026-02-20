@@ -1,0 +1,39 @@
+//Setup 1 basic 
+<h3 class="mt-10 mb-3">Watch the Film</h3>
+
+<p>
+  The full film is available to rent or purchase via Vimeo On Demand.
+</p>
+
+<a
+  href="https://vimeo.com/ondemand/epilogues"
+  target="_blank"
+  rel="noopener"
+  class="inline-block mt-8 px-16 py-6 border-2 border-white text-white text-2xl tracking-widest hover:bg-white hover:text-black transition duration-300"
+>
+  WATCH NOW
+</a>
+
+
+
+//Setup 2 With vimeo button 
+
+<h3 class="mt-10 mb-3">Watch the Film</h3>
+
+<p>
+  The full film is available to rent or purchase via Vimeo On Demand.
+</p>
+
+<a
+  href="https://vimeo.com/ondemand/epilogues"
+  target="_blank"
+  rel="noopener"
+  class="inline-flex items-center gap-3 mt-8 px-12 py-4 border-2 border-white text-white text-xl tracking-widest hover:bg-white hover:text-black transition duration-300"
+>
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M23.977 6.416c-.105 2.338-1.737 5.54-4.894 9.612-3.266 4.26-6.03 6.39-8.293 6.39-1.404 0-2.59-1.296-3.558-3.888-.645-2.376-1.29-4.752-1.935-7.128-.716-2.592-1.483-3.888-2.303-3.888-.178 0-.8.375-1.868 1.125L0 7.178c1.155-1.017 2.287-2.034 3.396-3.051C4.9 2.808 6.02 2.066 6.756 2.001c1.936-.186 3.127 1.138 3.574 3.972.483 3.061.82 4.966 1.01 5.716.56 2.543 1.177 3.814 1.853 3.814.52 0 1.3-.82 2.34-2.461 1.04-1.64 1.594-2.888 1.664-3.742.147-1.414-.41-2.12-1.664-2.12-.592 0-1.202.136-1.831.408 1.216-3.985 3.534-5.92 6.956-5.807 2.537.076 3.734 1.721 3.589 4.935z"/>
+  </svg>
+
+  <span>WATCH ON VIMEO</span>
+</a>
+
